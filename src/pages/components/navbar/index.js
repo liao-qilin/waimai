@@ -6,16 +6,23 @@ class NavBar extends Component {
     return (
       <NavBarWrapper>
         <NavItem>
-          <span className="iconfont item">&#xe603;</span>
-          <span className="item item-name">首页</span>
+          <a>
+            <span className="iconfont item">&#xe603;</span>
+            <span className="item item-name active">首页</span>
+          </a>
+
         </NavItem>
         <NavItem>
-          <span className="iconfont item">&#xe604;</span>
-          <span className="item item-name">订单</span>
+          <a>
+            <span className="iconfont item">&#xe604;</span>
+            <span className="item item-name">订单</span>
+          </a>
         </NavItem>
         <NavItem>
-          <span className="iconfont item">&#xe606;</span>
-          <span className="item item-name">我的</span>
+          <a>
+            <span className="iconfont item">&#xe606;</span>
+            <span className="item item-name">我的</span>
+          </a>
         </NavItem>
       </NavBarWrapper>
     );

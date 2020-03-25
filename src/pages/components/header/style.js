@@ -5,7 +5,6 @@ export const HeaderWrapper = styled.div`
   display:flex;
   top:0;
   left:0;
-  z-index:9999;
   height:40px;
   background:black;
   color:white;
@@ -18,6 +17,7 @@ export const SearchBox = styled.div`
   margin-top:6px;
   margin-right:10px;
   flex:1;
+  z-index:99;
   border-radius:20px;
   background:#fff;
   color:gray;

@@ -21,4 +21,7 @@ export const NavItem = styled.div`
     font-size:10px;
     color:#999;
   }
+  .active {
+    color:black;
+  }
 `;
