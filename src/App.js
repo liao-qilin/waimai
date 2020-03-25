@@ -1,17 +1,13 @@
 import React,{Fragment} from 'react';
 import {IconFont} from './statics/iconfont/iconfont'
 import {GlobalStyle} from './style'
-import Header from "./pages/components/header";
-import NavBar from "./pages/components/navbar";
-import CateIcon from "./pages/components/cate";
+import HomePage from "./pages/home";
 function App() {
   return (
     <Fragment>
       <GlobalStyle />
       <IconFont/>
-      <Header/>
-      <CateIcon/>
-      <NavBar/>
+      <HomePage/>
     </Fragment>
   );
 }
