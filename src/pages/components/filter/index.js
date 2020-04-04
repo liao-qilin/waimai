@@ -10,7 +10,7 @@ class Filter extends Component{
           附近商家
         </div>
         <div className="filter-box">
-          <div className="filter-item">综合排序</div>
+          <div className="filter-item">综合排序<i className="arrow-down"></i></div>
           <div className="filter-item">销量最高</div>
           <div className="filter-item">距离最近</div>
           <div className="filter-item">筛选</div>

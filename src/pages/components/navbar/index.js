@@ -1,4 +1,5 @@
 import React,{Component} from "react";
+import {Link} from "react-router-dom";
 import {NavBarWrapper, NavItem} from './style'
 class NavBar extends Component {
 
@@ -6,23 +7,23 @@ class NavBar extends Component {
     return (
       <NavBarWrapper>
         <NavItem>
-          <a>
+          <Link to="/">
             <span className="iconfont item">&#xe603;</span>
             <span className="item item-name active">首页</span>
-          </a>
+          </Link>
 
         </NavItem>
         <NavItem>
-          <a>
+          <Link to="/order">
             <span className="iconfont item">&#xe604;</span>
             <span className="item item-name">订单</span>
-          </a>
+          </Link>
         </NavItem>
         <NavItem>
-          <a>
+          <Link to="/user">
             <span className="iconfont item">&#xe606;</span>
             <span className="item item-name">我的</span>
-          </a>
+          </Link>
         </NavItem>
       </NavBarWrapper>
     );

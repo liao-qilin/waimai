@@ -4,6 +4,7 @@ export const FilterWrapper = styled.div`
   .filter-top {
     text-align:center;
     font-size:16px;
+    font-weight:bold;
     margin:10px 0;
   }
   .filter-top::after,.filter-top::before {
@@ -23,6 +24,16 @@ export const FilterWrapper = styled.div`
       font-size:15px;
       color:#666;
       text-align:center;
+    }
+    .arrow-down {
+      border: solid #666;
+      border-width: 0 1px 1px 0;
+      display: inline-block;
+      padding: 3px;
+      margin-left:5px;
+      margin-bottom:3px;
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
     }
   }
 `;

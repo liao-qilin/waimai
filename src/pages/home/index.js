@@ -10,7 +10,7 @@ class HomePage extends Component{
       <Fragment>
         <Header/>
         <CateIcon/>
-        <NavBar/>
+
         <Filter/>
       </Fragment>
     );
